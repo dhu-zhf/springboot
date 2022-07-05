@@ -1,0 +1,18 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
+#    username: root
+#    password: zhang941941@
+#    type: com.alibaba.druid.pool.DruidDataSource
+#两种都可以
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
+      username: root
+      password: zhang941941@
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_06_druid" />
+        <module name="springboot_05_mybatis_plus" />
+        <module name="springboot_07_ssmp" />
+        <module name="springboot_03_Junit" />
+        <module name="springboot_01_01quickstart" />
+        <module name="springboot_02_base_configuration" />
+        <module name="springboot_04_Mybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot_01_01quickstart" target="1.8" />
+      <module name="springboot_02_base_configuration" target="1.8" />
+      <module name="springboot_03_Junit" target="1.8" />
+      <module name="springboot_04_Mybatis" target="1.8" />
+      <module name="springboot_05_mybatis_plus" target="1.8" />
+      <module name="springboot_06_druid" target="1.8" />
+      <module name="springboot_07_ssmp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
